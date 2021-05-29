@@ -1,0 +1,66 @@
+.cart_box {
+
+  width:95%;
+  height:auto;
+  display:flex;
+flex-wrap: wrap;
+margin:15px 0 0 25px;
+overflow: hidden;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 350px; /* Ограничение ширины */
+  margin: 50px 15px 15px 40px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img {
+  
+  width: 100%;
+
+}
+ h3 {
+  color: #7c4dff;
+}
+p {
+  padding: 4px;
+  font-size: 14px;
+  color: #757575;
+}
+.price {
+  color: #d32f2f;
+  font-size: 18px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+.pagin{
+  margin: 35px 0 0 0;
+  text-align: center;
+}
+
+
+.disabled{
+font-size: 35px;  
+color:black;
+}
+#paging a {
+  font-size: 35px;
+color:black;
+}
+#paging p{
+  padding:0 0 15px 0;
+  font-size: 25px;
+color:black;
+}
